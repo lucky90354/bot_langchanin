@@ -1,0 +1,93 @@
+Vivek Singh 
+Full-stack Developer 
+D E T A I LS 
++91-7019046558 
+Email sanghvi858@gmail.co
+m LinkedIn https://www.linkedin.c
+om/in/vivek-singh 7019046558-mobile/
+GitHub- https://github.com/lu 
+cky90354
+ PROGRAMMING 
+LANGUAGE
+ ReactJS 
+ NodeJs 
+ExpressJS 
+ PHP 
+ JQuery 
+ DATABASE
+ MySqli 
+MongoDB 
+Firebase 
+ LANGUAGES
+ English 
+ Hindi 
+ TOOLS AND 
+UTILITIES
+Docker 
+ GIT 
+ AWS 
+ EDUCATION 
+ SKILLS
+ • Problem solving 
+skill • API integration • DSA Knowledge • System 
+Architecture • Database 
+Architecture • Code pipeline • Financial products 
+knowledge 
+PROFILE 
+Experienced Full-stack Developer with expertise in Node.js, Python API, 
+Core PHP, React.js, MySqli, MongoDB, and Firebase Database development, 
+with over 3 years of experience in the industry. Highly skilled in both Backend and Front-End development. Successfully led company-wide integration 
+projects with third-party APIs. Eager to expand knowledge of databases and 
+deliver top-notch web design at Brash General 
+Currently working as, a Developer for LoanTap Financial Technologies Pvt Ltd. 
+EMPLOYMENT HISTORY 
+Software Developer at LoanTap Financial Technologies Pvt Ltd. 
+Sep 2022 — Till Now 
+Integrated OCEN (Open Credit Enablement Network) API for lenders.  Integrated multiple partner APIs.  Developed webhook system for real-time communication.  Designed lead distribution API.  Used MySQLi Database for data storage.  Created JWT-based API with RSA-SHA512. Junior PHP Developer at Mindcom Consulting Services Pvt Ltd. 
+Aug 2021 — Sep 2022
+ Built CMS for school website.  Integrated API for dynamic updates.  Worked with Node.js and Python APIs.  Utilized MySQLi and MongoDB for data storage. Junior PHP Developer at True Arrow Software Pvt. Ltd.
+Nov 2020 — Mar 2021  Designed UI for room booking and reservations.  Implemented responsive design using 
+HTML/CSS/JavaScript.  Used React for enhanced user interactions.  Built server with Node.js for API requests.  Designed database schema using MongoDB. 
+Bachelor of Engineering 
+July 2016 —May 2019 
+Sir M Visvesvaraya Institute of Technology, BANGALORE 
+Successfully completed the B.E(CSE) with 6.7 CGPA. 
+Computer Science Engineering | Diploma 
+July 2013 —May 2016 
+BSF Institute of Technology 
+Successfully completed the Diploma with 79.43%. 
+PROJECTS 
+1. Design and Development of Ocen Standard APIs (Loantap Financial Technology pvt ltd.) 
+As a skilled and experienced Fullstack Developer, I spearheaded the design and development of Ocen Standard 
+APIs for Jokata, a prominent Loan Service Provider (LSP). In this role, I undertook the responsibility of creating 
+robust APIs to facilitate seamless communication and data exchange between our lending platform and Jokata's 
+sourcing journey. 
+Key Accomplishments: 
+• Led the end-to-end development process of Ocen Standard APIs, ensuring efficient integration and 
+interoperability with Jokata's systems. 
+• Collaborated closely with Jokata's technical team to define API specifications, data structures, and 
+security protocols for a smooth and secure data flow. 
+• Employed industry best practices to build scalable and high-performance APIs, optimizing response 
+times and enhancing user experiences. 
+• Implemented error handling and validation mechanisms to maintain data integrity and improve API 
+reliability. 
+• Actively participated in testing and debugging phases, resolving issues promptly to deliver a stable and 
+robust API solution. 
+• Effectively documented the API functionalities, endpoints, and usage guidelines, facilitating seamless 
+integration for Jokata and other potential partners. 
+• Contributed to cross-functional discussions to align business requirements with technical solutions, 
+ensuring a successful collaboration between the lending platform and Jokata. 
+• Played a key role in evaluating potential enhancements and optimizations to continually improve API 
+performance and security. 
+2. Pharmacy Website CMS Portal (Mindcom Consulting Services Pvt Ltd.) 
+I successfully developed a comprehensive CMS portal for a Pharmacy website. This project allowed users to 
+perform CRUD (Create, Read, Update, Delete) operations on various modules, including User, Medicines, and 
+Driver. Additionally, the CMS enabled easy management of all website content, such as Banners, Sliders, and 
+more. 
+Key Achievements and Technologies Used: 
+• Implemented a user-friendly interface using HTML5 and CSS3, ensuring an engaging and visually 
+appealing user experience. 
+• Utilized the MySQL database to efficiently store and manage data related to Users, Medicines, and 
+Drivers. 
+• Employed Node.js, a powerful JavaScript runtime, to develop the back-end functionalities of the CMS 
+portal.
