@@ -1,6 +1,9 @@
 Vivek Singh 
 Full-stack Developer 
-D E T A I LS 
+
+
+
+D E T A I L S 
 +91-7019046558 
 Email sanghvi858@gmail.co
 m LinkedIn https://www.linkedin.c
@@ -33,10 +36,12 @@ skill • API integration • DSA Knowledge • System
 Architecture • Database 
 Architecture • Code pipeline • Financial products 
 knowledge 
+
+
 PROFILE 
 Experienced Full-stack Developer with expertise in Node.js, Python API, 
 Core PHP, React.js, MySqli, MongoDB, and Firebase Database development, 
-with over 3 years of experience in the industry. Highly skilled in both Backend and Front-End development. Successfully led company-wide integration 
+with over 3 years of experience in the industry. Highly skilled in both Backend and Front-End development. Successfully led company-wide integration 
 projects with third-party APIs. Eager to expand knowledge of databases and 
 deliver top-notch web design at Brash General 
 Currently working as, a Developer for LoanTap Financial Technologies Pvt Ltd. 

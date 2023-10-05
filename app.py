@@ -1,55 +1,57 @@
 from langchain.document_loaders import TextLoader
 import textwrap
 from langchain.text_splitter import CharacterTextSplitter
-import os
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-loader =TextLoader("data.txt")
-document =loader.load()
-
-#preprocessing
-
-
-
-def wrap_text_preserve_newlines(text, width=110):
-    #split the input text into the lines based  on the newline charcters
-    
-    lines = text.split('\n')
-
-    #wrap each line indivisually
-
-    wrapped_lines = [textwrap.fill(line, width=width) for line in lines]
-
-    #join the wrapped lines back together using new line charcters
-
-    wrapped_text = '\n'.join(wrapped_lines)
-
-    return wrapped_text
-
-#Text splitting
-
-text_splitter = CharacterTextSplitter(chunk_size = 1000, chunk_overlap = 0)
-docs = text_splitter.split_documents(document)
-
-print(docs[0])
-print(len(docs))
-
-#Embedding
- 
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
-embedding = HuggingFaceEmbeddings()
-db = FAISS.from_documents(docs, embedding)
-
-#Q-A
-
 from langchain.chains.question_answering import load_qa_chain
 from langchain import HuggingFaceHub
 
-llm=HuggingFaceHub(repo_id="google/flan-t5-xxl", model_kwargs={"temperature":0.8, "max_length":512})
+# loading the API key
+import os
+os.environ['HUGGING_FACE_HUB_API_KEY'] = "Import Your HUGGING_FACE_HUB_API_KEY"
 
-chain = load_qa_chain(llm, chain_type="stuff")
+loader = TextLoader("data.txt")
+document = loader.load()
 
-query = "what is langchain?"
+# number of pages
+len(document)
 
-docResult = db.similarity_search(query)
-print(chain.run(input_ducument = docResult, question = query))
+document[0]
+
+
+def wrap_text_preserve_newlines(text, width=110):
+    
+    
+    lines = text.split('\n')
+    
+    
+    
+    wrapped_lines = [textwrap.fill(line, width=width) for line in lines]
+    
+    
+    wrapped_text = '\n'.join(wrapped_lines)
+    
+    return wrapped_text
+
+text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+docs = text_splitter.split_documents(document)
+
+len(docs)
+embedding = HuggingFaceEmbeddings()
+doc_search = FAISS.from_documents(docs, embedding)
+
+query = "Who is vivek singh"
+similar_docs = doc_search.similarity_search(query)
+
+repo_id = "tiiuae/falcon-7b"
+llm = HuggingFaceHub(huggingfacehub_api_token=os.environ['HUGGING_FACE_HUB_API_KEY'],
+                     repo_id=repo_id, model_kwargs={'temperature': 0.2, 'max_length': 1000})
+
+chain = load_qa_chain(
+    llm,
+    chain_type="stuff",
+)
+
+query = "Tell me something about vivek's profile"
+docResult = doc_search.similarity_search(query)
+print(chain.run(input_documents=docResult, question=query))
